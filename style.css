@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1458px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.navbar__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+.nv {
+  display: flex;
+}
+.navbar__right {
+  display: flex;
+  gap: 20px;
+}
+
+/* navbars btnnn */
+.navbar_btns {
+  display: flex;
+  gap: 20px;
+  display: none;
+}
+.navbar__btn {
+  padding: 10px;
+}
+.navbar__left {
+  padding: 10px;
+}
+.navbar_btns a {
+  padding: 10px;
+  color: white;
+}
+.navbar_btns a:last-of-type {
+  /* padding: 10px 19px; */
+  /* margin: 10px; */
+  border: 1px solid orange;
+  padding: 10px 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: orange;
+}
+@media (min-width: 1024px) {
+  .navbar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* display: none; */
+  }
+  .navbar_btns {
+    display: inline-block;
+  }
+
+  .navbar__btn {
+    display: none;
+  }
+}
+.navbars__links {
+  text-align: center;
+  padding-top: 60px;
+}
+.navbars__links a:first-child {
+  color: gray;
+  font-family: Poppins;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.navbars__links a:last-child {
+  color: orange;
+  font-family: Poppins;
+  font-size: 16px;
+}
+.navbar__about {
+  padding-top: 20px;
+}
+.about__title {
+  /* width: 320px;
+  height: 135px;
+  top: 198px;
+  left: 27px;
+  gap: 0px;
+  opacity: 0px; */
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45.12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about__text {
+  padding-top: 15px;
+  /* width: 263px;
+  height: 31px;
+  top: 366px;
+  left: 56px;
+  gap: 0px;
+  opacity: 0px; */
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22.5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar__img {
+  padding-top: 100px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .about__title {
+    text-align: center;
+    font-size: 35px;
+  }
+  .about__text {
+    font-size: 18px;
+  }
+}
+.navbar__bottom {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.navbar_card1 {
+  display: flex;
+  padding-bottom: 25px;
+  /* margin-bottom: 20px; */
+  border-bottom: 2px solid black;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.call_about {
+  padding-left: 15px;
+  /* font-size: 19px; */
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25.5px;
+  /* text-align: left; */
+}
+.location_about {
+  padding-left: 15px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25.5px;
+  text-align: left;
+}
+.navbar_card2 {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid black;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar_card {
+  /* display: flex; */
+  max-width: 350px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards__img {
+  display: flex;
+}
+.cards__title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30.32px;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  .navbar__bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .navbar_card1 {
+    display: flex;
+    padding-bottom: 25px;
+    /* margin-bottom: 20px; */
+    border: none;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    /* border-right: 1px solid gray; */
+    padding-right: 25px;
+  }
+  .navbar_card2 {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    /* border-bottom: 2px solid black;
+    b */
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    /* border-right: 1px solid gray; */
+  }
+}
