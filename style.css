@@ -39,6 +39,7 @@ body {
   padding-right: 12px;
 }
 
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .navbar {
@@ -248,6 +249,248 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: none;
-    /* border-right: 1px solid gray; */
   }
+  .navbar__bottom {
+    padding-top: 100px;
+  }
+}
+.logins__title {
+  padding-top: 70px;
+  text-align: center;
+}
+.login__title {
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 43.58px;
+  /* text-align: left; */
+}
+.login__text {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24.63px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.from_inputs {
+  display: flex;
+  gap: 25px;
+  max-width: 775px;
+
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group2 {
+  max-width: 775px;
+  gap: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group3 {
+  max-width: 775px;
+  gap: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.logins_part {
+  /* text-align: center; */
+}
+.btns {
+  max-width: 775px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+}
+.navbar__bottom {
+  padding-bottom: 50px;
+}
+.login_aal {
+  background-color: #f5f5f5;
+  padding-bottom: 80px;
+}
+@media (min-width: 1024px) {
+  .login__title {
+    font-size: 35px;
+  }
+  .login__text {
+    font-size: 18px;
+  }
+}
+.adv__title {
+  text-align-last: center;
+  padding-top: 50px;
+}
+.adv_titlee {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 37.5px;
+  /* text-align: left; */
+}
+.adv_text {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22.5px;
+  /* text-align: left; */
+}
+.adv__bottom {
+  max-width: 1170px;
+  background-color: #1b1b1b;
+  color: white;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.adv_left_title {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  /* text-align: left; */
+}
+.adv_right {
+  padding-top: 15px;
+}
+.adv_left_text {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  /* text-align: left; */
+}
+.adv_input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* background-color: #fff; */
+}
+.adv_btn {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: orange;
+  color: white;
+}
+
+@media (min-width: 1030px) {
+  .adv__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+  .adv_titlee {
+    font-size: 35px;
+  }
+  .adv_text {
+    padding-top: 25px;
+    font-size: 18px;
+  }
+  .adv__title {
+    /* text-align-last: left; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.footer__all {
+  background-color: #1b1b1b;
+  /* padding-top: 80px; */
+  margin-top: 80px;
+  padding: 20px;
+}
+.adv__bottom {
+  /* padding-bottom: 80px;
+  mb80
+   */
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.footer__all {
+  /* max-width: 400px; */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  text-align: left;
+  font-family: Poppins;
+  display: none;
+}
+.about_links a {
+  color: white;
+  padding-top: 5px;
+}
+.logo_footer_text {
+  padding-top: 5px;
+}
+.footer_contacts_text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer_contacts_link {
+  color: white;
+}
+.footer_about_us {
+  text-align: center;
+}
+.footer__all {
+  border-bottom: 1px solid white;
+}
+.footer__bottom {
+  background-color: #1b1b1b;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: Poppins;
+}
+@media (min-width: 1030px) {
+  .footer__all {
+    /* max-width: 400px; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    text-align: left;
+    font-family: Poppins;
+    /* display: none; */
+    /* display: inline-block; */
+  }
+}
+.footer_bottom_title {
+  font-size: 15px;
 }
